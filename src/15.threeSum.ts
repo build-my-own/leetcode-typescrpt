@@ -12,6 +12,9 @@ function threeSum(nums: number[]): number[][] {
         return [];
     }
     let res: number[][] = [];
+    /**
+     * 优化 0: 每一轮结果至少 3 个数字，到倒数第 3 个数字的时候退出循环
+     */
     for (let i = 0; i < n - 2; i++) {
         /**
          * 优化1: 如果当前数和最小的两个数相加大于 0, 那后续的所有三数之和都大于 0
