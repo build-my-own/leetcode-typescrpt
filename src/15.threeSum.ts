@@ -5,6 +5,10 @@
  */
 
 // @lc code=start
+/**
+ * 时间复杂度：O(n2)
+ * 空间复杂度：O(1)
+ */
 function threeSum(nums: number[]): number[][] {
     nums.sort((a, b) => a - b);
     let n = nums.length;
