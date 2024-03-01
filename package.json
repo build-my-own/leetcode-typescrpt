@@ -1,3 +1,12 @@
 {
-  "name": "@build-my-own/leetcode-typescrpt"
+  "name": "@build-my-own/leetcode-typescrpt",
+  "scripts": {
+    "cmt": "git add *; git commit -m \"it's an automatic commit\"; git push"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
 }
