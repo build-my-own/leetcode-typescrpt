@@ -21,7 +21,7 @@ function isPalindrome(x: number): boolean {
         r = r * 10 + l % 10;
         l = Math.floor(l / 10);
     }
-    return l === r || l === Math.floor(r / 10);
+    return r === l || Math.floor(r / 10) === l;
 };
 // @lc code=end
 
